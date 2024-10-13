@@ -1,0 +1,20 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "IP Info",
+  "description": "An extension to get the country corresponding to your IP address",
+  "developer_name": "Your Name",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.05
+  },
+  "preferences": [
+    {
+      "id": "ipinfo_kw",
+      "type": "keyword",
+      "name": "IP Info",
+      "description": "Get the country corresponding to your IP address",
+      "default_value": "ipinfo"
+    }
+  ]
+}
+
